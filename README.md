@@ -15,7 +15,7 @@ The platform follows a multi-tenant, service-oriented architecture:
 - **Backend**: Node.js + Express + MongoDB  
   - User authentication and role management  
   - Multi-tenant data isolation  
-  - Session storage and therapist dashboards  
+  - Session storage and therapist dashboards
 
 - **ML Service**: Python + FastAPI  
   - Real-time inference via WebSockets  

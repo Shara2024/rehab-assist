@@ -10,6 +10,29 @@
 # Logs
 *.log
 
+# Environment variables
+**/.env
+**/.env.*
+!**/.env.example
+
 # IDE
 .vscode/
 .idea/
+
+# Processed pipeline outputs
+rehabassist_dataset_pipeline/data/processed/
+rehabassist_dataset_pipeline/
+
+# Raw captured data
+rehabassist_dataset_pipeline/data/raw/
+
+# Generated media
+*.mp4
+*.webm
+*.jpg
+*.jpeg
+*.png
+
+# Python cache
+__pycache__/
+*.pyc
